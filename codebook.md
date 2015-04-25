@@ -43,7 +43,7 @@ The following files are available for the train and test data. Their description
 
 Transformation details
 
-There are 5 parts:
+There are 5 parts to process the data:
 
 Merges the training and the test sets to create one data set.
 Extracts only the measurements on the mean and standard deviation for each measurement.
@@ -52,9 +52,9 @@ Appropriately labels the data set with descriptive activity names.
 Creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 
-How run_analysis.R implements the above steps:
+How run_analysis.R implemented the above process:
 
-Require dplyr and data.table librareis.
+Require dplyr and data.table libraries.
 Load both test and train data
 Load the features and activity labels.
 Combine the datasets
